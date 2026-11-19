@@ -4,13 +4,12 @@
     {
       "name": "filter",
       "camelcase": "Filter",
-      "title": "Filter",
       "scope": "source.filter",
+      "path": ".",
       "file-types": [
         "filter"
       ],
-      "injection-regex": "^filter$",
-      "class-name": "TreeSitterFilter"
+      "highlights": "queries/highlights.scm"
     }
   ],
   "metadata": {
